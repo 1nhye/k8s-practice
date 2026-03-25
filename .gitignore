@@ -1,2 +1,20 @@
+# claude
 .claude/
+
+# python
 __pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# env
+.env
+.env.*
+
+# huggingface model cache
+.cache/
+
+# os
+.DS_Store
+Thumbs.db
