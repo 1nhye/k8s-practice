@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: sentiment-api
-        image: docker.io/library/sentiment-api:v1
-        imagePullPolicy: Never
+        image: gcr.io/project-5d0c5cd6-794c-4b56-bf8/sentiment-api:v1
+        imagePullPolicy: Always
         ports:
         - containerPort: 8000

@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: frontend:v1
-        imagePullPolicy: Never
+        image: gcr.io/project-5d0c5cd6-794c-4b56-bf8/sentiment-frontend:v1
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000
         env:
