@@ -18,3 +18,10 @@ venv/
 # os
 .DS_Store
 Thumbs.db
+
+# terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
